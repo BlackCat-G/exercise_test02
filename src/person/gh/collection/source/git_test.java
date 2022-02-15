@@ -2,14 +2,7 @@ package person.gh.collection.source;
 
 public class git_test {
     public static void main(String[] args) {
-        System.out.println("hello,git");
-        System.out.println("second commit");
-        System.out.println("third commit");
-        System.out.println("hot-fix commit");
-        System.out.println("hot-fix commit2");
-        System.out.println("master test");
-        System.out.println("push test");
-        System.out.println("pull test");
-       
+        getData g = new getData(1,2);
+        System.out.println(g.add());
     }
 }
