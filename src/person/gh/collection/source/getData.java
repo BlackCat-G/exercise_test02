@@ -20,6 +20,6 @@ public class getData {
      * @return int
      */
     public int div(){
-        return this.x-this.y;
+        return this.x-this.y; // 下次写代码注意格式
     }
 }
