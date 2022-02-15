@@ -10,4 +10,16 @@ public class getData {
     public int add(){
         return  this.x+this.y;
     }
+    /**
+     * description: implment div
+     * version: 1.0
+     * date: 2022/2/15 9:48
+     * author: Gaohang
+     *
+     * @param
+     * @return int
+     */
+    public int div(){
+        return this.x-this.y;
+    }
 }
